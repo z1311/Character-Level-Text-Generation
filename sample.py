@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     optional_args = parser.add_argument_group('Optional Args')
     optional_args.add_argument('-i', '--initialstr', type=str, metavar='initial_string', dest='initial_str', default='Avengers Assemble', help='Starter string for the model(default: Avengers Assemble)')
-    optional_args.add_argument('-n', '--charlength', type=int, metavar='output_chars_length', dest='out_char', default=200, help='Number of characters to output(default: 200)')
+    optional_args.add_argument('-n', '--charlen', type=int, metavar='output_chars_length', dest='out_char', default=200, help='Number of characters to output(default: 200)')
 
     args = parser.parse_args()
 
