@@ -11,6 +11,8 @@ Character Level Text Generation with RNN, LSTM and GRU. The language models are 
 
 ## Sample Output
 
+<sup>Small Suggestion: Don't try to make sense out of the generated sample outputs.</sup>
+
 > _AVENGERS ASSEMBLE_ -- <br>
 SSLYS) shifting, over here! <br>
 They're coming for them.<br>
@@ -58,3 +60,7 @@ Not be a good man too.<br>
 You busy out!<br>
 No, this must have heard about the code.<br>
 But I'm really long down good aim you should download a VPN<br>
+
+## Convergence Graph
+RNN, LSTM and GRU trained over 500 epochs and their losses.
+![loss_graph](https://user-images.githubusercontent.com/47830313/90983370-463f7480-e58b-11ea-92b4-d26c5c177830.png)
